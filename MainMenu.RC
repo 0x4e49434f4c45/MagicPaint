@@ -1,0 +1,28 @@
+/*MainMenu.RC for use with MagicPaint.CPP. By Crazy Monkey, October 21, 2011.*/
+// set up menu
+MainMenu MENU DISCARDABLE
+BEGIN
+// menu definition goes here
+	POPUP L"&File"
+	BEGIN
+	     MENUITEM "E&xit", 1
+        END
+        POPUP L"&Color Choices"
+	BEGIN
+		MENUITEM L"&Red", 1001
+		MENUITEM L"&Green", 1002
+		MENUITEM L"&Blue", 1003
+		MENUITEM L"&Yellow", 1004
+		MENUITEM L"&Orange", 1005
+		MENUITEM L"&Purple", 1006
+		MENUITEM L"Bl&ack", 1007
+		MENUITEM L"&Magic Pen!", 1010
+	END
+	POPUP L"Brush &Size"
+	BEGIN
+	     MENUITEM L"&1", 2001
+	     MENUITEM L"&2", 2002
+	     MENUITEM L"&3", 2003
+	     MENUITEM L"&4", 2004
+       END
+END
